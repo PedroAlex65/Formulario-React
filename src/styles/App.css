@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3d3b48;
+  background-image: url("../img/Group 5.svg");
+  background-size: contain;
+}
+.container .section-one {
+  display: inline-block;
+}
+.container .section-one h1 {
+  font-weight: 700;
+  font-size: 3.1rem;
+  line-height: 3.4rem;
+  color: #fff;
+}
+.container .section-one p {
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.6rem;
+  font-size: 1rem;
+  width: 525px;
+}
+.container .section-two {
+  display: inline-block;
+  margin-left: 45px;
+}
+.container .section-two .link {
+  display: flex;
+  width: 33.7rem;
+  height: 3.7rem;
+  background-color: #5e54a4;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 0.6rem;
+  justify-content: center;
+}
+.container .section-two .link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+}
+.container .section-two .link a span {
+  font-weight: 400;
+}
+.container .section-two form {
+  margin-top: 1.5rem;
+}
+.container .section-two form label {
+  width: 33.7rem;
+  height: 29.6rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.25rem;
+  border-radius: 10px;
+}
+.container .section-two form label input {
+  width: 28.7rem;
+  height: 3.5rem;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+}
+.container .section-two form label input[placeholder] {
+  padding-left: 2rem;
+}
+.container .section-two form label button {
+  width: 28.7rem;
+  height: 3.5rem;
+  background: #38cc8b;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  border-radius: 0.3rem;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.container .section-two form label button:hover {
+  transform: scale(1.05);
+}
+.container .section-two form label p {
+  font-size: 11px;
+  line-height: 26px;
+  align-items: center;
+  font-weight: 500;
+  color: #a6a1cf;
+}
+.container .section-two form label p span {
+  color: #ff7979;
+}
+.container .section-confirm {
+  position: absolute;
+  top: 343px;
+  left: 504px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 832px;
+  height: 278px;
+  background-color: #fff;
+  border-radius: 10px;
+}/*# sourceMappingURL=App.css.map */
